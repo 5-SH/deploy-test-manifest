@@ -18,7 +18,7 @@ spec:
 
       containers:
         - name: product-container
-          image: 192.168.56.1:8080/deploy-test-product/product-service:v1
+          image: 192.168.56.1:8080/deploy-test-product/product-service:4
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
