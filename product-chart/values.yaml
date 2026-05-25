@@ -8,7 +8,7 @@ image:
   repository: 192.168.56.1:8080/deploy-test-product/product-service
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "4"
 
 imagePullSecrets: []
 nameOverride: ""
