@@ -5,6 +5,9 @@ metadata:
   name: member-service
   namespace: monitoring
 
+  labels:
+    release: monitoring
+
 spec:
   selector:
     matchLabels:
