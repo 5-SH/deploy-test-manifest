@@ -4,6 +4,8 @@ kind: Service
 metadata:
   name: member-service
   namespace: deploy-test
+  labels:
+    app: member
 
 spec:
   type: {{ .Values.service.type }}
